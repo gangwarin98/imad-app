@@ -1,6 +1,5 @@
 body {
     font-family: sans-serif;
-    background-color: lightgrey;
     margin-top: 75px;
 }
 
@@ -20,3 +19,6 @@ body {
     height: 200px;
 }
 
+.container {
+    
+}
