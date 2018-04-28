@@ -164,13 +164,9 @@ app.get('/', function (req, res) {
      res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-// app.get('/ui/style.css', function (req, res) {
-//      res.sendFile(path.join(__dirname, 'ui', 'style.css'));
-// });
-
 app.get('/ui/:fileName', function (req, res) {
     var fileName = req.params.fileName;
-     res.sendFile(path.join(__dirname, 'ui', `${fileName}`));
+     res.sendFile(path.join(__dirname, 'ui', `${fileName}`));  //reducing code 
 });
 
 app.get("/:articleName", function(req, res) {
